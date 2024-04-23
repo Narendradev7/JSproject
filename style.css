@@ -1,0 +1,377 @@
+/* Medium Mobiles */
+@media only screen and (min-width: 319px) and (max-width: 599px) {
+  
+    body {
+      background-color: cadetblue;
+      color: white;
+    }
+  
+    h1{
+      font-size: 18px;
+      text-align: center;
+      font-family: century gothic;
+    }
+  
+    p {
+      font-size: 30px;
+      text-align:  center;
+     }
+  
+     
+     .actions button {
+      padding: 10px 10px;
+      font-size: 20px;
+      background-color: lightgreen;
+      color: black;
+      border: none;
+      display: block;
+      margin: auto;
+  }
+  
+     .grid-container {
+      display: flex;
+      grid-gap: 35px;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .card {
+      height: calc(50px / 2 * 3);
+      width: 50px;
+      background-color: white;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    .front-image {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .card.flipped {
+      transform: rotateY(180deg);
+    }
+  
+    .front, .back {
+      backface-visibility: hidden;
+      position: absolute;
+      border-radius: 10px;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+  }
+  
+  .card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card .back {
+    background-image: url("../backgroundimage.jpg");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+  
+  .card .front {
+    transform: rotateY(180deg);
+  } 
+
+  #mcg {
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  #mcg:hover {
+    transform: scale(1.2); 
+  }
+
+  #mcg-container {
+    perspective: 1000px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 180px; 
+  }
+  
+  #mcg {
+    transition: transform 0.5s ease; 
+    font-size: 36px;
+  }
+  
+  #mcg:hover {
+    transform: rotateY(180deg); 
+  }
+  
+  #flipped-text {
+    backface-visibility: hidden; 
+    transform-style: preserve-3d; 
+    width: 550px; 
+    height: 550px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #ccc; 
+    border: 1px solid #999; 
+    border-radius: 5px;
+  }
+  
+  }
+  
+  /*  */
+  @media only screen and (min-width: 599px) and (max-width: 768px) {
+  
+    body {
+      background-color: cadetblue;
+      color: white;
+    }
+  
+    h1{
+      font-size: 40px;
+      text-align: center;
+      font-family: century gothic;
+    }
+  
+    p {
+      font-size: 30px;
+      text-align:  center;
+     }
+  
+     .actions button {
+      padding: 10px 10px;
+      font-size: 20px;
+      background-color: lightgreen;
+      color: black;
+      border: none;
+      display: block;
+      margin: auto;
+  }
+  
+  .grid-container {
+    display: flex;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    height: calc(120px / 2 * 3);
+    width: 120px;
+    background-color: white;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .front-image {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card .back {
+    background-image: url("../backgroundimage.jpg");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+  
+  .card .front {
+    transform: rotateY(180deg);
+  } 
+
+  #mcg {
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  #mcg:hover {
+    transform: scale(1.2); 
+  }
+
+  #mcg-container {
+    perspective: 1000px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 180px; 
+  }
+  
+  #mcg {
+    transition: transform 0.5s ease; 
+    font-size: 36px;
+  }
+  
+  #mcg:hover {
+    transform: rotateY(180deg); 
+  }
+  
+  #flipped-text {
+    backface-visibility: hidden; 
+    transform-style: preserve-3d; 
+    width: 550px; 
+    height: 550px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #ccc; 
+    border: 1px solid #999; 
+    border-radius: 5px;
+  }
+  
+
+  }
+  
+  
+  @media only screen and (min-width: 769px) and (max-width: 1920px) {
+  
+    
+    body {
+      background-color: cadetblue;
+      color: white;
+    }
+  
+    h1{
+      font-size: 40px;
+      text-align: center;
+      font-family: century gothic;
+    }
+  
+    p {
+      font-size: 30px;
+      text-align:  center;
+     }
+  
+     
+     .actions button {
+      padding: 10px 10px;
+      font-size: 20px;
+      background-color: lightgreen;
+      color: black;
+      border: none;
+      display: block;
+      margin: auto;
+  }
+  
+  .grid-container {
+    display: flex;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    height: calc(120px / 2 * 3);
+    width: 120px;
+    background-color: white;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  
+  .center{
+    width: 1000px;
+    margin: auto;
+  }
+  .front-image {
+    width: 70px;
+    height: 70px;
+  }
+  
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  
+  .front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card .front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card .back {
+    background-image: url("../backgroundimage.jpg");
+    background-position: center center;
+    background-size: cover;
+    backface-visibility: hidden;
+  }
+  
+  .card .front {
+    transform: rotateY(180deg);
+  } 
+
+  #mcg {
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  #mcg:hover {
+    transform: scale(1.2); 
+  }
+
+  #mcg-container {
+    perspective: 1000px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 180px; 
+  }
+  
+  #mcg {
+    transition: transform 0.5s ease; 
+    font-size: 36px;
+  }
+  
+  #mcg:hover {
+    transform: rotateY(180deg); 
+  }
+  
+  #flipped-text {
+    backface-visibility: hidden; 
+    transform-style: preserve-3d; 
+    width: 550px; 
+    height: 550px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #ccc; 
+    border: 1px solid #999; 
+    border-radius: 5px;
+  }  
+  
+}
+

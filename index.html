@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div id="mcg-container">
+    <div id="mcg">
+      <span id="flipped-text"><i><u>MCG</u></i></span>
+    </div>
+  </div>
+
+  <div class="center">
+    <div class="grid-container"></div>
+  </div>
+
+  <div class="actions">
+    <p>Score: <span class="score"></span> &emsp;&emsp; Time: <span class="timer"></span> Sec</p>
+    <button onclick="restart()">Restart</button>
+  </div>
+
+  <audio id="successSound" src="./success-1.mp3"></audio>
+  <audio id="failSound" src="./fail-1.mp3"></audio>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
